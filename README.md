@@ -18,7 +18,7 @@ You will find a ReactJS app in the `/src` folder and an ExpressJS app in the `/b
 
 ### The Challenge
 
-This is a typical Todo app build with ReactJS and ExpressJS in which you should be able to create, read, update, and delete todos, there are already some boiler plate code like styles, components, and setup code for the backend.
+This is a typical Todo app build with ReactJS and ExpressJS in which you should be able to create, read, update, and delete todos, there are already some boilerplate code like styles, components, and setup code for the backend.
 
 For this full-stack code challenge you will need to develop the following features:
 
