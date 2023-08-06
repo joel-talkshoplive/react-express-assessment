@@ -9,12 +9,18 @@ This challenge requires:
 - NPM
 - A cup of ☕ or 🍵
 
-The repo is pre-configured, so just running `npm i` you should be able to start.
+The repo is pre-configured, so just running `npm install` you should be able to start.
 You may use any other package of your choice to enrich your development experience.
 
 ### Project Structure
 
-You will find a ReactJS app in the `/src` folder and an ExpressJS app in the `/backend` folder, to start both apps you should run `npm run dev`
+You will find a ReactJS app in the `/src` folder and an ExpressJS app in the `/backend` folder.
+
+To start just:
+
+1. Install the dependencies: `npm install`
+1. Start both frontend and backend apps: `npm run dev`
+1. The backend app should be running on [http://localhost:3001](http://localhost:3001) and the frontend app on [http://localhost:5173](http://localhost:5173)
 
 ### The Challenge
 
