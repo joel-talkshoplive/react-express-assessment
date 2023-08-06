@@ -5,7 +5,7 @@ Please fork the repo to start.
 
 This challenge requires:
 
-- NodeJS (> v14.8.0)
+- NodeJS (> v16.14.0)
 - NPM
 - A cup of ☕ or 🍵
 
@@ -14,13 +14,13 @@ You may use any other package of your choice to enrich your development experien
 
 ### Project Structure
 
-You will find a ReactJS app in the `/src` folder and an ExpressJS app in the `/backend` folder.
+You will find a ReactJS app in the `frontend/` folder and an ExpressJS app in the `/backend` folder.
 
-To start just:
+To start just run the following commands on the root directory:
 
 1. Install the dependencies: `npm install`
 1. Start both frontend and backend apps: `npm run dev`
-1. The backend app should be running on [http://localhost:3001](http://localhost:3001) and the frontend app on [http://localhost:5173](http://localhost:5173)
+1. The backend app should be running on [http://localhost:3000](http://localhost:3000) and the frontend app on [http://localhost:5173](http://localhost:5173)
 
 ### The Challenge
 
@@ -44,5 +44,6 @@ Extra points:
 
 - Add request validation
 - Filter todos by status
+- Implement PropTypes
 - Ability to search for todos
 - Ability to export todos to a CSV file
