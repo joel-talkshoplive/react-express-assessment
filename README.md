@@ -5,7 +5,7 @@ Please fork the repo to start.
 
 This challenge requires:
 
-- NodeJS (> v16.14.0)
+- NodeJS (>= v16.14.0)
 - NPM
 - A cup of ☕ or 🍵
 
