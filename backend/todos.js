@@ -3,7 +3,7 @@ import express from "express";
 let todos = [
   {
     id: 1,
-    todo: "Take Firulais for walk",
+    todo: "Take Teddy for a walk",
     completed: false,
   },
 ];

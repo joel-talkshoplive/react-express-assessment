@@ -1,11 +1,31 @@
-# TODO APP
+# Welcome!
+
+Welcome to Talk Shop Live full-stack assessment challenge!
+Please fork the repo to start.
+
+This challenge requires:
+
+- NodeJS (> v14.8.0)
+- NPM
+- A cup of ☕ or 🍵
+
+The repo is pre-configured, so just running `npm i` you should be able to start.
+You may use any other package of your choice to enrich your development experience.
+
+### Project Structure
+
+You will find a ReactJS app in the `/src` folder and an ExpressJS app in the `/backend` folder, to start both apps you should run `npm run dev`
+
+### The Challenge
+
+This is a typical Todo app build with ReactJS and ExpressJS in which you should be able to create, read, update, and delete todos, there are already some boiler plate code like styles, components, and setup code for the backend.
 
 For this full-stack code challenge you will need to develop the following features:
 
 Backend:
 
 - CRUD functionality, follow REST standard, there is no need for a DB, use the `todos` variable instead
-- For Create, Update, and Delete, the request must have the correct `Api-Key` header, if not return the correct HTTP status
+- For Create, Update, and Delete, the request must have the correct `Api-Key` header (use the constant `API_KEY`), if not return the correct HTTP status
 
 Frontend:
 
@@ -20,6 +40,3 @@ Extra points:
 - Filter todos by status
 - Ability to search for todos
 - Ability to export todos to a CSV file
-
-To start the react and express apps run
-`npm run dev`
